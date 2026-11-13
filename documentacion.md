@@ -118,8 +118,6 @@ flowchart LR
 
 ### 2.3 Diagrama de Flujo del Proceso (Solicitud y Validación de Préstamo)
 
-![Diagrama de Flujo](img/06_diagrama_flujo.png)
-
 ```mermaid
 flowchart TD
     Inicio([Inicio]) --> Login[Usuario inicia sesión]
@@ -274,7 +272,7 @@ Esta guía explica cómo usar el Sistema de Gestión de Préstamos de Pañol Esc
 ### 6.1 Entornos y Requisitos de Infraestructura
 
 * **Entornos:** Desarrollo (Dev), Pruebas (QA) y Producción (Prod).
-* **Infraestructura mínima:** Linux (Ubuntu 22.04 LTS), 2 vCPU, 4 GB RAM, 20 GB SSD, Docker v24.0+, Docker Compose v2.20+ y Nginx.
+* **Infraestructura mínima:** Linux (Ubuntu 22.04 LTS), 2 vCPU, 4 GB RAM, 120 GB SSD, Docker v24.0+, Docker Compose v2.20+ y Nginx.
 
 ### 6.2 Pasos para Despliegue en Producción
 
@@ -290,5 +288,5 @@ Esta guía explica cómo usar el Sistema de Gestión de Préstamos de Pañol Esc
 | Versión | Fecha | Autor | Descripción de Cambios |
 | :--- | :--- | :--- | :--- |
 | 1.0 | 2026-11-12 | Franco Capria | Creación inicial de los 7 apartados de documentación y bocetos de interfaz. |
-| 1.1 | 2026-11-12 | Franco Capria | Incorporación de marco conceptual, caso de uso formal, paso a paso, diagramas PERT/Gantt y bibliografía. |
+| 1.1 | 2026-11-12 | Franco Capria | Incorporación de marco conceptual, caso de uso formal, paso a paso, diagramas PERT/Gantt. |
 
